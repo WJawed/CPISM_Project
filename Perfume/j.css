@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+/* .dcard1{
+    border:3px solid rgb(104, 101, 101);
+} */
+.dcard2:hover{
+    box-shadow: 5px 5px 5px rgb(180, 178, 178);
+    transform: scale(0.95);
+}
+.dhead1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+}
+.dpara{
+    text-align: center;
+
+}
+#box1{
+    
+}
+.content2{
+    font-family: Georgia, serif;  
+}
+.dhead2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img1{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.cont1{
+    margin-top: 70px;
+    
+    
+}
+.p1{
+    font-weight: bold;
+}
+.cardimg1{
+    background: url('./img3/4.jpg');
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.cardimg1:hover{
+    background:url('./img3/3.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.cardimg2{
+    background: url('./img3/2.jpg');
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.cardimg2:hover{
+    background:url('./img3/1.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.cardimg3{
+    background: url('./img3/6.jpg');
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.cardimg3:hover{
+    background:url('./img3/5.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.cardimg4{
+    background: url('./img3/j8.jpg');
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.cardimg4:hover{
+    background:url('./img3/j88.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.cardimg5{
+    background: url('./img3/10.jpg');
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.cardimg5:hover{
+    background:url('./img3/8.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.cardimg6{
+    background: url('./img3/11.jpg');
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.cardimg6:hover{
+    background:url('./img3/9.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.cardimg7{
+    background: url('./img3/19.jpg');
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.cardimg7:hover{
+    background:url('./img3/18.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.cardimg8{
+    background: url('./img3/20.jpg');
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.cardimg8:hover{
+    background:url('./img3/21.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.cardimg9{
+    background: url('./img3/23.jpg');
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.cardimg9:hover{
+    background:url('./img3/22.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.box1{
+    margin-top: 80px;
+    padding-left: 80px;
+}
+.inp1{
+    width: 100px;
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #403B4A 0%, #E7E9BB  51%, #403B4A  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    width: 300px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .head1{
+    
+    font-family: 'Dancing Script', cursive;
+}
+ 

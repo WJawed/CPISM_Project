@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+.content1{
+    font-family: Georgia, serif;
+    
+}
+.img1 h1{
+    font-family: "brush script MT",cursive;
+    font-size: 100px;
+}
+.img2 h1{
+    font-size: 100px;
+    color: white;
+   font-family:  "brush script MT",cursive;
+}
+.content2{
+    font-family: Georgia, serif;  
+}
+.img3 h1{
+    font-size: 80px;
+    
+   font-family:  "brush script MT",cursive;
+}
+
+.dhead2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn1{
+    height: 50px;
+    width: 150px;
+    margin-top: 130px;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+.btn2{
+    height: 50px;
+    width: 150px;
+    margin-top: 160px;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+.card1{
+    height: 300px;
+    border: 3px solid black;
+    }
+.para1{
+        /* padding-top: 50px; */
+        text-align: center;
+    }
+.img4{
+    padding-top: 70px;
+    font-size: 60px;
+    text-align: center;
+}
+.content3{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.text{
+    font-family: Georgia, serif;
+}
+.box{
+    width: 80%;
+    height: 700px;
+    justify-content: space-around;
+    display: flex;
+}
+.card2{
+    background: url('./img/ab0b9eec-63e0-4562-994b-c2a02952d613.jpg');
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    /* transition-delay: 1s;
+    transition-duration: 1s;
+    transition-timing-function: linear; */
+}
+.card2:hover{
+    background:url('./img/ae0fcc3d-9dbd-4235-a813-4022905212e9.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/* .card2{
+    background: url('/images/11.jpg');
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.card2:hover{
+    background:url('/images/12.jpg');
+    background-position: center;
+    background-size: cover;
+    transform: rotateY(180deg);
+} */
+.H1{
+    margin-left: 500px;
+    font-size: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-top: 150px;
+    color: rgb(15, 15, 15);
+}
+.H2{
+    margin-left: 500px;
+    font-size: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive; 
+    color: white; 
+}
+.H3{
+    margin-right: 100px;
+    font-size: 70px;
+    font-family: Comic Sans MS, Comic Sans, cursive; 
+    color: white; 
+    margin-top: 50px;
+}
+
+/* .l1{
+    margin-left: 525px;
+    font-family: 'Caprasimo', cursive;;
+}
+.l2{
+    margin-right: 525px;
+    font-family: 'Caprasimo', cursive;
+} */
