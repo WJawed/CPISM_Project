@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Rubik+Moonrocks&family=Shadows+Into+Light&family=Zeyada&display=swap" rel="stylesheet">
+<style>
+    body {
+background-color: #ffffff;
+}
+
+.attractive-color {
+background-color: #000000;
+color: #ffffff;
+}
+
+
+.btn:hover {
+background-color: #2ca4c2;
+color: #ffffff;
+}
+.btn-form{
+background-color: #434444;
+color: #ffffff;
+}
+.btn-form:hover{
+color: rgb(255, 255, 255);
+background: linear-gradient(130deg, rgb(231, 153, 238),rgb(35 165 135 / 84%)) ;
+transition: .2s;
+border: rgb(115, 212, 219);
+}
+
+.carousel-item img:hover {
+opacity: 0.8;
+}
+
+/* Navbar styles */
+.navbar {
+background-color: #00000000;
+height: 60px;
+}
+
+.navbar-brand {
+margin-right: 20px;
+color: #fff;
+font-size: 24px;
+font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+color: #fff;
+font-weight: bold;
+transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+color: #007bff;
+}
+
+/* Center align menu items */
+.navbar-nav {
+flex-direction: row;
+justify-content: center;
+}
+
+/* Search box styles */
+.search-box {
+position: relative;
+margin-left: auto;
+}
+
+.search-box input[type="text"] {
+width: 300px;
+height: 40px;
+background-color: transparent;
+border: none;
+border-bottom: 2px solid #fff;
+color: #fff;
+font-size: 16px;
+padding: 0 10px;
+outline: none;
+}
+
+.search-box input[type="text"]:focus {
+border-bottom-color: #007bff;
+}
+
+.search-box .btn-search {
+position: absolute;
+top: 0;
+right: 0;
+height: 40px;
+width: 40px;
+background-color: transparent;
+border: none;
+outline: none;
+color: #fff;
+}
+.dropdown-menu{
+background: #0000009a;
+
+}
+.paint1{
+border-radius: 50%;
+border: 1px solid white;
+height: 366px;
+cursor: pointer;
+}
+
+
+.landscape {
+display: flex;
+height: 250px;
+}
+
+.card-landscape {
+position: relative;
+width: 1140px;
+height: 250px;
+}
+
+.landscape-img {
+width: 1140px;
+height: 250px;
+object-fit: cover;
+}
+
+.landscape-text {
+position: absolute;
+top: 40%;
+left: 35%;
+color: white;
+font-size: 68px;
+font-weight: bold;
+}
+marquee {
+white-space: nowrap;
+overflow: hidden;
+background-color: #333;
+color: #fff;
+}
+
+marquee p {
+display: inline-block;
+padding-left: 100%;
+animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+0% {
+transform: translateX(100%);
+}
+100% {
+transform: translateX(-100%);
+}
+}
+span{
+    color: red;
+}
+h2{
+    font-family: 'Shadows Into Light', cursive;
+}
+.card1{
+    background: url(./painting/Nature/8-20-7-19-11-54-7m.jpg);
+    width: 450px;
+    height: 315px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: .5s;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+.card1:hover{ 
+    background: url(./painting/Abstract/Untitled.png);
+    background-position: center;
+    background-size: cover;
+    transform:rotateY(180degree);
+    width : 450px;
+    height: 315px;
+}
+
+
+    .card2{
+    background: url(./painting/Nature/Acrylic-Nature-Painting.jpg);
+    width: 450px;
+    height: 315px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: .5s;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+.card2:hover{ 
+    background: url(./painting/Nature/painting-boathouse-middle-lake-generative-ai_791316-15077.avif);
+    background-position: center;
+    background-size: cover;
+    transform:rotateY(180degree);
+    width : 450px;
+    height: 315px;
+}
+
+
+
+.card3{
+    background: url(./painting/Nature/photo-1577720580479-7d839d829c73.jpg);
+    width: 450px;
+    height: 315px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: .5s;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+.card3:hover{ 
+    background: url(./painting/Abstract/Untitled.png);
+    background-position: center;
+    background-size: cover;
+    transform:rotateY(180degree);
+    width : 450px;
+    height: 315px;
+}
+
+
+
+.card4{
+    background: url(./painting/Nature/river-7448675_960_720.jpg);
+    width: 450px;
+    height: 315px;
+    background-position: center;
+    background-size: cover;
+    transition-delay: .5s;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+.card4:hover{ 
+    background: url(./painting/Abstract/Untitled.png);
+    background-position: center;
+    background-size: cover;
+    transform:rotateY(180degree);
+    width : 450px;
+    height: 315px;
+}
+
+.exp:hover{
+color: rgb(255, 255, 255);
+background: linear-gradient(130deg, rgb(231, 153, 238),rgb(35 165 135 / 84%)) ;
+transition: .2s;
+border: rgb(115, 212, 219);
+}
+
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg sticky-sm-top sticky-md-top sticky-lg-top " style="background: #00000000;">
+                        <div class="container-fluid">
+                            <a class="navbar-brand attractive-color" href="#">
+                                <img src="./Group 1 (1).png" alt="Logo" height="40">
+                            </a>
+    
+                          <div class="collapse navbar-collapse ml-5 text-center" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./E-Project.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                               
+                              </li>
+    
+    
+                            </ul>
+                            <form class="search-box">
+                              <input class="form-control border border-dark" type="text" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-search" type="submit">
+                                  <i class="fa fa-search text-dark"></i>
+                              </button>
+                          </form>
+                        </div>
+    
+                        <nav class="navbar navbar-light bg-light fixed-top">
+                          <div class="container-fluid">
+                            <a class="navbar-brand text-dark" style="padding-left: 10px;" href="#">GALLERIA</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                              <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">galleria</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                              </div>
+                              <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="./E-Project.html">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#name">About-us</a>
+                                  </li>
+                                  <li class="nav-item dropdown text-dark" >
+                                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      paintings
+                                    </a>
+                                    <ul class="dropdown-menu " style="background-color: #ffffffb5;" aria-labelledby="navbarScrollingDropdown">
+                                      <li><a class="dropdown-item text-dark" href="./abstract..html">Abstract paintings</a></li>
+                                      <li><a class="dropdown-item text-dark" href="#">Landscape paintings</a></li>
+                                      <li><a class="dropdown-item text-dark" href="#">Flower paintings</a></li>
+                                      <li><a class="dropdown-item text-dark" href="./nature.html">Nature paintings</a></li>
+                                      <li><a class="dropdown-item text-dark" href="./figurative.html">Figurative paintings</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Information</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" data-bs-target="#form1" data-bs-toggle="modal" href="#">contact</a>
+                                  </li>
+                                </ul>
+                                <form class="d-flex">
+                                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                  <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </nav>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" style="width: 1200px;" id="form1">
+          <div class="modal-dialog">
+            <div class="modal-content" style="width: 800px;">
+              <div class="modal-header">
+            <div class="container">
+              <div class="row">
+    
+    
+                  <button class="btn-close " data-bs-dismiss="modal"></button>
+        
+            <h2 class="text-center">WELCOME TO PAINTING WORLD</h2>
+    
+            <div class="col-md-12 pt-4"> <!-- Add "bg-light" class for background color -->
+              <form action="./form.html" novalidate class="myvalidation">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                        <div class="col-md-6 mt-3">
+                        <input type="text" class="form-control" placeholder="First Name" required>
+                        <div class="invalid-feedback">
+                        Please Enter Your First Name
+                        </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                          <input type="text" class="form-control" placeholder="Last Name" required>
+                          <div class="invalid-feedback">
+                          Please Enter Your Last Name
+                          </div>
+                          </div>
+                        <div class="col-md-6 mt-3">
+                        <input type="email" class="form-control" placeholder="Email" required>
+                        <div class="invalid-feedback">
+                        Please Enter Your Email
+                        </div>
+                        </div>
+                        <div class="col-md-6 mt-3 mt-3">
+                          <input type="password" class="form-control" placeholder="Password" required>
+                          <div class="invalid-feedback">
+                          Please Enter Your Password Must be 8-20 characters long.
+                          </div>
+                          </div>
+                        <div class="col-md-6 mt-3">
+                        <select name="" id="" class="form-control" required>
+                        <option value="">Select City</option>
+                        <option >Karachi</option>
+                        <option >Lahore</option>
+                        <option >Multan</option>
+                        <option >Islamabad</option>
+                        </select>
+                        <div class="invalid-feedback">
+                        Please Enter Your country
+                        </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                          <input type="number" class="form-control" placeholder="phone No" required>
+                          <div class="invalid-feedback">
+                          Please Enter Your Phone No
+                          </div>
+                          </div>
+                          <div class="mb-3  mt-3">
+                          
+                            <input class="form-control form-control" type="file" id="formFileMultiple" required multiple>
+                            <div class="invalid-feedback">
+                              Please Enter Your File
+                              </div>
+                          </div>
+                        <div class="form-check mt-1" style="padding-left: 2.5em;">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" >
+                          <label class="form-check-label" for="flexRadioDefault1" >
+                           Male
+                          </label>
+                        </div>
+                        <div class="form-check" style="padding-left: 2.5em;">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                          <label class="form-check-label" for="flexRadioDefault2">
+                            Female
+                          </label>
+                          <div class="invalid-feedback">
+                            Please Enter Your Gender
+                            </div>
+                        </div>
+    
+                        <div class="form-check form-switch mt-1" style="padding-left: 3.5em;" >
+                          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                          <label class="form-check-label" for="flexSwitchCheckDefault">Save Your Infomation</label>
+                        </div>
+                        </div>
+                        <div class="col-md-12  mt-3 d-grid">
+                        <input type="submit" onclick="validate_data()" class="btn btn-form">
+                        </div>
+                    </div>
+                </div>
+                </form>
+            
+    <!-- Move the JavaScript code to the end of the body -->
+    
+    </div>
+    </div>
+    </div>
+    
+            </div>
+          </div>
+        </div>
+        </div>
+    
+    
+    
+    </header>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md12 mt-5 text-center" style="
+        font-family: 'Rubik Moonrocks';
+       "><h1>WelCome To Nature Painting Section</h1></div>
+    </div>
+
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mt-3 mb-3">
+            <div class="image-container">
+                <img src="./painting/Nature/1524208282Beautiful Nature.jpg" alt="Image" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h1>Nature Painting</h1>
+            <p style="font-size: 20px;"><b>Acrylic Paints :</b> Acrylic paints are versatile and
+                 come in a wide array of colors. They can be used in various ways, including layering, pouring, and creating textures.<br>
+                 <b>Oil Paints :</b>Oil paints offer rich colors and the ability to blend smoothly. They're suitable for techniques
+                  like impasto (thick layering) and glazing (transparent layers).<br>
+                  <b>Watercolors :</b>Watercolors are translucent and allow for delicate washes of color.
+                   They're often used for abstract pieces with a softer, ethereal feel.<br>
+            
+            
+            
+            
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mt-3 mb-3">
+            <div class="image-container">
+                <img src="./painting/Nature/22963.jpg.jpg " style="width: 100%;" alt="Image" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h1>Nature Painting</h1>
+            <p style="font-size: 20px;"><b>Acrylic Paints :</b> Acrylic paints are versatile and
+                 come in a wide array of colors. They can be used in various ways, including layering, pouring, and creating textures.<br>
+                 <b>Oil Paints :</b>Oil paints offer rich colors and the ability to blend smoothly. They're suitable for techniques
+                  like impasto (thick layering) and glazing (transparent layers).<br>
+                  <b>Watercolors :</b>Watercolors are translucent and allow for delicate washes of color.
+                   They're often used for abstract pieces with a softer, ethereal feel.<br>
+            
+            
+            
+            
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mt-3 mb-3">
+            <div class="image-container">
+                <img src="./painting/Nature/3-bridge-colorful-nature-paintings-by-ann-marie-bone.jpg" alt="Image" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h1>Nature Painting</h1>
+            <p style="font-size: 20px;"><b>Acrylic Paints :</b> Acrylic paints are versatile and
+                 come in a wide array of colors. They can be used in various ways, including layering, pouring, and creating textures.<br>
+                 <b>Oil Paints :</b>Oil paints offer rich colors and the ability to blend smoothly. They're suitable for techniques
+                  like impasto (thick layering) and glazing (transparent layers).<br>
+                  <b>Watercolors :</b>Watercolors are translucent and allow for delicate washes of color.
+                   They're often used for abstract pieces with a softer, ethereal feel.<br>
+            
+            
+            
+            
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mt-3 mb-3" >
+            <div class="image-container">
+                <img src="./painting/Nature/5996049-AHRVPAKW-7.jpg" alt="Image" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h1>Nature Painting</h1>
+            <p style="font-size: 20px;"><b>Acrylic Paints :</b> Acrylic paints are versatile and
+                 come in a wide array of colors. They can be used in various ways, including layering, pouring, and creating textures.<br>
+                 <b>Oil Paints :</b>Oil paints offer rich colors and the ability to blend smoothly. They're suitable for techniques
+                  like impasto (thick layering) and glazing (transparent layers).<br>
+                  <b>Watercolors :</b>Watercolors are translucent and allow for delicate washes of color.
+                   They're often used for abstract pieces with a softer, ethereal feel.<br>
+            
+            
+            
+            
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-lg-6 hover1 mt-3 mb-3">
+            <div class="card card1"></div>
+
+        </div>
+
+        <div class="col-md-12 col-lg-6 mt-3 mb-3">
+            <div class="card card2"></div>
+        </div>
+
+
+        <div class="col-md-12 col-lg-6 mt-3 mb-3">
+            <div class="card card3"></div>
+        </div>
+
+
+        <div class="col-md-12 col-lg-6 mt-3 mb-3">
+            <div class="card card4"></div>
+        </div>
+
+
+        
+    </div>
+</div>
+<footer style="background-color: #f8f9fa;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h3><a name="about">About Us</a></h3>
+                <p>
+                  "Transforming Spaces, One Brushstroke at a Time: Embrace the Power of Colors! Whether you're looking to add vibrancy to your home or express your artistic vision, our painting services are here to bring life and personality to your walls. With a team of skilled artists,
+                   we create beauty that lasts long and inspires. Let your walls narrate a tale of 2023's finest hues!"</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Quick Links</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+  
+            </div>
+            <div class="col-md-4">
+                <h3>Contact Us</h3>
+                <p>karachi pakistan</p>
+                <p>Email: galleriapainting@gmail.com</p>
+                <p>Contact NO: 03123456878</p>
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                  <label class="form-check-label" for="flexSwitchCheckChecked">Save Info</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center py-3" style="background-color: #343a40; color: #fff;">
+        &copy; 2023 Your Website Name. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
